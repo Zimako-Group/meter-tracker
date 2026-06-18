@@ -1,0 +1,87 @@
+// src/data/south-africa.js
+
+export const provinces = [
+  { id: 'ec', name: 'Eastern Cape' },
+  { id: 'fs', name: 'Free State' },
+  { id: 'gp', name: 'Gauteng' },
+  { id: 'kzn', name: 'KwaZulu-Natal' },
+  { id: 'lp', name: 'Limpopo' },
+  { id: 'mp', name: 'Mpumalanga' },
+  { id: 'nc', name: 'Northern Cape' },
+  { id: 'nw', name: 'North West' },
+  { id: 'wc', name: 'Western Cape' },
+];
+
+export const municipalities = {
+  ec: [
+    'Buffalo City',
+    'Nelson Mandela Bay',
+    'Chris Hani',
+    'Joe Gqabi',
+    'OR Tambo',
+    'Alfred Nzo',
+    'Amathole',
+    'Sarah Baartman',
+  ],
+  fs: [
+    'Mangaung',
+    'Lejweleputswa',
+    'Fezile Dabi',
+    'Thabo Mofutsanyana',
+    'Xhariep',
+  ],
+  gp: [
+    'City of Johannesburg',
+    'City of Tshwane',
+    'Ekurhuleni',
+    'Sedibeng',
+    'West Rand',
+  ],
+  kzn: [
+    'eThekwini',
+    'Ugu',
+    'Umgungundlovu',
+    'Uthukela',
+    'Umzinyathi',
+    'Amajuba',
+    'Zululand',
+    'Umkhanyakude',
+    'King Cetshwayo',
+    'Uthungulu',
+    'Ilembe',
+    'Harry Gwala',
+  ],
+  lp: [
+    'Capricorn',
+    'Mopani',
+    'Sekhukhune',
+    'Vhembe',
+    'Waterberg',
+  ],
+  mp: [
+    'Ehlanzeni',
+    'Gert Sibande',
+    'Nkangala',
+  ],
+  nc: [
+    'Frances Baard',
+    'John Taolo Gaetsewe',
+    'Namakwa',
+    'Pixley ka Seme',
+    'ZF Mgcawu',
+  ],
+  nw: [
+    'Bojanala',
+    'Ngaka Modiri Molema',
+    'Dr Ruth Segomotsi Mompati',
+    'Dr Kenneth Kaunda',
+  ],
+  wc: [
+    'City of Cape Town',
+    'Cape Winelands',
+    'Central Karoo',
+    'Garden Route',
+    'Overberg',
+    'West Coast',
+  ],
+};
